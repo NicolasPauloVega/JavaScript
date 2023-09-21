@@ -69,7 +69,7 @@ function mostrar() {
             } else if (num2 > num1){
                 document.write("El numero "+num2+" Es mayor que el numero"+num1)
             } else {
-                document.write("Los numeros "+num1+" y "+num2+" son iguales.")
+                document.write("Perdon o los datos que dijitaste son erroneos,la operacion da 0, son iguales o no estas realizando la operacion correcta")
             }
             break;
         
