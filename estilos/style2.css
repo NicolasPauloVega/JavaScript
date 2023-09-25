@@ -1,9 +1,58 @@
+body {
+    background-image: url(https://midu.dev/images/wallpapers/una-taza-de-javascript.png); /*Colocamos una imagen como fondo*/
 
+    background-size: cover; /*Ajustamos la imagen para que cubra todo el fondo de la pagina*/
+
+    background-repeat: no-repeat; /*En este apartadado estamos evitando que la imagen se repita*/
+    
+    background-attachment: fixed; /*Fijamos la imagen en el lugar que nosotros queremos mientras se desplaza*/
+
+    background-position: center center; /*Centramos la imagen de manera horizontal y vertical*/
+}
 
 .Titulo {
     text-align: center; /*Centramos el Texto*/
+    /* color: yellow; Cambiamos el color de un Titulo */
+    font-size: 50px; /*Aumentamos el tamaño del texto*/
+    font-weight: bold; /*Coloca negrilla al texto*/
+    animation: cambioDeColor 5s infinite; /*Creamos una animacion que cambie de color cada 5 segundos de manera infinita*/
+}
+
+/*Creamos la animacion la cual se encarga de crear un bucle de colores en el cual cada 5 segundos cambiara de porcentaje y a su vez de color*/
+@keyframes cambioDeColor{
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    75% {
+        color: yellow;
+    }
+
+    100% {
+        color: red;
+    }
 }
 
 form {
     text-align: center; /*Centramos el boton*/
+}
+
+.boton{
+    color: black; /*Le colocamos fondo al texto del boton*/
+    background-color: aqua; /*Le colocamos color al boton*/
+    border: 100%; /*Le ponemos bordes al boton*/
+    cursor: pointer; /*Ponemos pointer para que cuando pasemos el cursor por el boton cambie la flecha (Cursor) a una manita*/
+    transition: background-color 0.3s, color 0.3s; /*Agrega una transicion suave*/
+}
+
+.boton:hover {
+    background-color: orange; /*Cambia el color del boton al pasar el boton*/
 }
