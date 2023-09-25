@@ -1,12 +1,8 @@
 body {
     background-image: url(https://midu.dev/images/wallpapers/una-taza-de-javascript.png); /*Colocamos una imagen como fondo*/
-
     background-size: cover; /*Ajustamos la imagen para que cubra todo el fondo de la pagina*/
-
     background-repeat: no-repeat; /*En este apartadado estamos evitando que la imagen se repita*/
-    
     background-attachment: fixed; /*Fijamos la imagen en el lugar que nosotros queremos mientras se desplaza*/
-
     background-position: center center; /*Centramos la imagen de manera horizontal y vertical*/
 }
 
