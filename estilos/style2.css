@@ -1,3 +1,9 @@
-h1 {
-    text-align: center;
+
+
+.Titulo {
+    text-align: center; /*Centramos el Texto*/
+}
+
+form {
+    text-align: center; /*Centramos el boton*/
 }
