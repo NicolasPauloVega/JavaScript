@@ -16,8 +16,8 @@
 
     <div class="caja">
     
-        <input type="number" id="n1" class="form-control" placeholder="numero 1">
-        <input type="number" id="n2" class="form-control" placeholder="numero 2">
+        <input type="number" id="n1" class="form-control" placeholder="numero 1"> <br/>
+        <input type="number" id="n2" class="form-control" placeholder="numero 2"> <br/>
         <select class="form-control" aria-placeholder="Default select example" id="opc">
             <option selected>opcion</option>
             <option value="1">suma</option>
@@ -26,10 +26,12 @@
             <option value="4">division</option>
         </select>
         <br>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="lose">resultado</button>
-
+        <button onclick="mostrar()" class="btn btn-outline-dark" role="alert">calculadora</button>
+    </div>
+    <div>
+        <strong id="resultado"></strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
     </div>
-
 </body>
 </html>
