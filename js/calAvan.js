@@ -15,7 +15,7 @@ function sumar(n1,n2){
 
 function restar(n1,n2){
     var resultado = n1-n2;
-    var resultado = document.getElementById("resultado")
+    var res = document.getElementById("resultado")
 
     if(n1!=0 && n2!=0){
         respuesta.style.display="block";
@@ -30,7 +30,7 @@ function restar(n1,n2){
 
 function multiplicar(n1,n2){
     var resultado = n1*n2;
-    var resultado = document.getElementById("resultado")
+    var res = document.getElementById("resultado")
 
     if(n1!=0 && n2!=0){
         respuesta.style.display="block";
@@ -45,7 +45,7 @@ function multiplicar(n1,n2){
 
 function dividir(n1,n2){
     var resultado = n1/n2;
-    var resultado = document.getElementById("resultado")
+    var res = document.getElementById("resultado")
 
     if(n1!=0 && n2!=0){
         respuesta.style.display="block";
@@ -59,7 +59,6 @@ function dividir(n1,n2){
 }
 
 function mostrar(){
-    alert("Estoy en mostrar")
 
     let n1 = parseInt(document.getElementById("n1").value)
     let n2 = parseInt(document.getElementById("n2").value)
@@ -70,13 +69,13 @@ function mostrar(){
             sumar(n1,n2)
             break
         case 2:
-            restar()
+            restar(n1,n2)
             break
         case 3:
-            multiplicar()
+            multiplicar(n1,n2)
             break
-        case 4:
-            dividir()
+        case 4:    
+            dividir(n1,n2)
             break
         default:
             alert("La opcion no es valida")
