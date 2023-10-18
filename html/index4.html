@@ -17,39 +17,39 @@
                 <h2>Platos</h2><br>
 
                 <label for="platos">Selecciona el plato que desee:</label><br>
-                <select name="platos-select" id="1">
+                <select id="comida">
                     <option value="0"></option>
-                    <option value="10.99">Costillas de cerdo con vino tinto</option>
-                    <option value="25.90">Salmon con trigueros y judias blancas</option>
-                    <option value="10.75">Pasta con salmon a la mostaza</option>
-                    <option value="15.25">Pierna de cordero al horno</option>
-                    <option value="12.50">Muslos de pavo con verduras y patatas asadas</option>
+                    <option value="10.99">Costillas de cerdo con vino tinto ($10.99)</option>
+                    <option value="25.90">Salmon con trigueros y judias blancas ($25.90)</option>
+                    <option value="10.75">Pasta con salmon a la mostaza ($10.75)</option>
+                    <option value="15.25">Pierna de cordero al horno ($15.25)</option>
+                    <option value="12.50">Muslos de pavo con verduras y patatas asadas ($12.50)</option>
                 </select><br><br>
 
                 <label for="cantidad-platos">¿Cuantos platos desea? </label><br>
-                <input type="number" id="cantidadPlatos"><br><br>
+                <input type="number" id="cantidadPlatos" min="0"><br><br>
 
                 <h2>Bebidas</h2><br>
                 <label for="bebidas">Selecciona la bebida que desea:</label><br>
-                <select name="bebidas-select" id="2">
+                <select id="bebida">
                     <option value="0"></option>
-                    <option value="0.00">Limonada</option>
-                    <option value="3.00">Coca-cola</option>
-                    <option value="2.75">Pepsi</option>
-                    <option value="2.00">Té-Helado</option>
-                    <option value="5.00">Lima-Limon</option>
+                    <option value="0.00">Limonada (Gratis)</option>
+                    <option value="3.00">Coca-cola ($3.00)</option>
+                    <option value="2.75">Pepsi ($2.75)</option>
+                    <option value="2.00">Té-Helado ($2.00)</option>
+                    <option value="5.00">Lima-Limon ($5.00)</option>
                 </select><br><br>
 
                 <label>¿Cuantas bebidas desea?</label><br>
-                <input type="number" id="cantidadBebidas"><br>
+                <input type="number" id="cantidadBebidas" min="0"><br>
 
                 <br>
         
-                <button id="btn-1" onclick="mostrar()" class="btn btn-outline-dark" role="alert">Valor Total</button>
-        
+                <button id="btn-1" onclick="mostrar()" role="alert">Valor Total</button>
+
                 <div id="respuesta">
-                <strong id="resultado"></strong>
-            </div>
+                    <strong id="resultado"></strong>
+                </div>
         </div>
 
     </section>
