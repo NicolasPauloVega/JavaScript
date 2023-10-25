@@ -20,5 +20,5 @@ function mostrar(){
     var total = resPlatos + resBebida;
 
     //Finalmente mostramos el resultado abajo del boton.
-    respuesta.innerHTML = `Total ${total}`;
+    respuesta.innerHTML = `Total $${total}`;
 }
