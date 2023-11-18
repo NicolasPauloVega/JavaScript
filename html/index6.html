@@ -5,36 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style6.css">
     <script src="https://kit.fontawesome.com/93981ca0bd.js" crossorigin="anonymous"></script>
-    <script src="../js/carrito.js"></script>
     <title>Carrito de compras</title>
 </head>
 <body>
-    
+
     <h1>CARRITO DE COMPRAS</h1>
 
-    <!-- Mostramos la cantidad de libros que se desean comprar. -->
-    <div id="libro1">
-        <h2 id="valor1">0</h2>
-        <button id="aumento">+</button>
-        <button id="decremento">-</button>
+    <div id="container">
+
+        <!-- Mostramos la cantidad de libros que se desean comprar. -->
+        <div id="row">
+
+            <h2> <span id="valor">0</span> </h2>
+
+            <button type="button" id="aumento" onclick="aumento()">+</button>
+
+            <button type="button" id="decremento" onclick="decremento()">-</button>
+
+        </div>
+
     </div>
 
-    <!-- Mostramos la cantidad de libros que se desean comprar. -->
-    <div id="libro2">
-        <h2 id="valor2">0</h2>
-        <button id="aumento1">+</button>
-        <button id="decremento1">-</button>
-    </div>
-
-    <!-- Mostramos el total de libros. -->
-    <div id="totalLibros">
-        <h2 id="total">Total de libros</h2>
-    </div>
-
-    <!-- Mostramos el total a pagar. -->
-    <div id="totalpaga">
-        <h2>Total a pagar</h2>
-    </div>
-    
+    <script src="../js/carrito.js"></script>
 </body>
 </html>
