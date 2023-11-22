@@ -22,3 +22,4 @@ function mostrar(){
     //Finalmente mostramos el resultado abajo del boton.
     respuesta.innerHTML = `Total $${total}`;
 }
+

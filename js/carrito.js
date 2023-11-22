@@ -13,18 +13,18 @@ const valorJs = document.getElementById("valorJs")
 
 //Esta funcion suma 1 al contador que se muestra en los valores de html.
 function incrementoHtml(){
-    contador += 1;
+    contadorH += 1;
     valorHtml.innerHTML = contadorH;
 }
 
 //Esta funcion resta 1 al contador que se muestra en los valores de html.
 function decrementoHtml(){
     //Se usa una condicion la cual si identifica que el numero es mayor a 0 se le resta al contador pero sino se encuentra un numero mayor a 1 entonces deja el contador en 0.
-    if (contador > 0){
-        contador -= 1;
+    if (contadorH > 0){
+        contadorH -= 1;
         valorHtml.innerHTML = contadorH;
     }else{
-        contador = 0;
+        contadorH = 0;
         valorHtml.innerHTML = contadorH;
     }
 }
@@ -39,26 +39,26 @@ function resetHtml(){
 
 //Esta funcion suma 1 al contador que se muestra en los valores de css.
 function incrementoCss(){
-    contador += 1;
-    valorCss.innerHTML = contadorJ;
+    contadorC += 1;
+    valorCss.innerHTML = contadorC;
 }
 
 //Esta funcion resta 1 al contador que se muestra en los valores de css.
 function decrementoCss(){
     //Se usa una condicion la cual si identifica que el numero es mayor a 0 se le resta al contador pero sino se encuentra un numero mayor a 1 entonces deja el contador en 0.
-    if (contador > 0){
-        contador -= 1;
-        valorCss.innerHTML = contadorJ;
+    if (contadorC > 0){
+        contadorC -= 1;
+        valorCss.innerHTML = contadorC;
     }else{
-        contador = 0;
-        valorCss.innerHTML = contadorJ;
+        contadorC = 0;
+        valorCss.innerHTML = contadorC;
     }
 }
 
 //Se reinicia todos los valor.
 function resetCss(){
-    contador = 0;
-    valorCss.innerHTML = contadorJ;
+    contadorC = 0;
+    valorCss.innerHTML = contadorC;
 }
 
 //Creamos una funcion de incremento, decremento y reset para manipular la cantidad de productos que se escogen en el libro de css.
@@ -80,8 +80,9 @@ function decrementoJs(){
         valorJs.innerHTML = contadorJ;
     }
 }
-
+//Se reinicia todos los valor.
 function resetJs(){
     contadorJ = 0;
     valorJs.innerHTML = contadorJ;
 }
+

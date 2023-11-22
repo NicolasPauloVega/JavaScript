@@ -1,0 +1,204 @@
+/*Se sentra el titulo y se le cambia el tipo de texto.*/
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Se le coloca edita la imagen de html colocandole bordes y se le ajusta el tamaño*/
+.img-html{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 122px;
+}
+
+/*Se le coloca edita la imagen de css colocandole bordes y se le ajusta el tamaño*/
+.img-css{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 122px;
+}
+
+/*Se le coloca edita la imagen de Js colocandole bordes y se le ajusta el tamaño*/
+.img-js{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 40px;
+}
+
+/*Se ajustan las imagenes para que esten en fila, se centran y se alinian.*/
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Se edita el texto ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.html{
+    margin-right: 80px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.css{
+    margin-right: 60px;
+}
+
+/*Se edita el texto ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.valor{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-html{
+    margin-right: 210px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-css{
+    margin-right: 215px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-js{
+    margin-right: 40px;
+}
+
+/*Se edita el boton ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.boton-html{
+    margin-right: 180px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.boton-css{
+    margin-right: 180px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.boton-js{
+    margin-right: 45px;
+}
+
+/*Se edita el texto ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.resultado{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.html-total{
+    margin-right: 158px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.css-total{
+    margin-right: 152px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.js-total{
+    margin-right: 45px;
+}
+
+/*Se edita el texto ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.valor-total{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-html-total{
+    margin-right: 215px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-css-total{
+    margin-right: 215px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.valor-js-total{
+    margin-right: 40px;
+}
+
+/*Se edita los botones ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.boton-reset{
+    display: flex;
+    justify-content: center;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.btn-html{
+    margin-right: 183px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.btn-css{
+    margin-right: 183px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.btn-js{
+    margin-right: 44px;
+}
+
+/*Se edita el texto ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.labelCurs{
+    display: flex;
+    justify-content: center;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.htCs{
+    margin-right: 115px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.csCs{
+    margin-right: 140px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.jsCs{
+    margin-right: 40px;
+}
+
+/*Se edita la lista ajustandolo en fila, centralizandolo y cambiando el texto.*/
+.optiones{
+    display: flex;
+    justify-content: center;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.cusoHtml{
+    margin-right: 110px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.cusoCss{
+    margin-right: 130px;
+}
+
+/*Se coloca una separacion entre los textos e imagenes.*/
+.cusoJs{
+    margin-right: 30px;
+}
