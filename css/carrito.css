@@ -1,0 +1,138 @@
+.titulo{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-html{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 122px;
+}
+
+.img-css{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 122px;
+}
+
+.img-js{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 40px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.html{
+    margin-right: 80px;
+}
+
+.css{
+    margin-right: 60px;
+}
+
+
+
+.valor{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.valor-html{
+    margin-right: 210px;
+}
+
+.valor-css{
+    margin-right: 215px;
+}
+
+.valor-js{
+    margin-right: 40px;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+}
+
+.boton-html{
+    margin-right: 180px;
+}
+
+.boton-css{
+    margin-right: 180px;
+}
+
+.boton-js{
+    margin-right: 45px;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.html-total{
+    margin-right: 158px;
+}
+
+.css-total{
+    margin-right: 152px;
+}
+
+.js-total{
+    margin-right: 45px;
+}
+
+.valor-total{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.valor-html-total{
+    margin-right: 215px;
+}
+
+.valor-css-total{
+    margin-right: 215px;
+}
+
+.valor-js-total{
+    margin-right: 40px;
+}
+
+.boton-reset{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-html{
+    margin-right: 183px;
+}
+
+.btn-css{
+    margin-right: 183px;
+}
+
+.btn-js{
+    margin-right: 44px;
+}

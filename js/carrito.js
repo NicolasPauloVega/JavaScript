@@ -1,45 +1,87 @@
-let contador = 0;
+//Creamos variable las cuales puede cambiar de valor y nos permitira sumar la cantida que desea comprar el usuario.
 
-const valor = document.getElementById("valor")
+let contadorH = 0
+let contadorC = 0
+let contadorJ = 0
 
-function incremento(){
+//Creamos un valor constante el cual nos mostrara la cantidad de objetos que escoge el usuario.
+const valorHtml = document.getElementById("valorHtml")
+const valorCss = document.getElementById("valorCss")
+const valorJs = document.getElementById("valorJs")
+
+// Creamos una funcion de incremento, decremento y reset para manipular la cantidad de productos que se escogen en el libro de html.
+
+//Esta funcion suma 1 al contador que se muestra en los valores de html.
+function incrementoHtml(){
     contador += 1;
-    valor.innerHTML = contador;
+    valorHtml.innerHTML = contadorH;
 }
 
-function decremento(){
-    if(contador>0){
+//Esta funcion resta 1 al contador que se muestra en los valores de html.
+function decrementoHtml(){
+    //Se usa una condicion la cual si identifica que el numero es mayor a 0 se le resta al contador pero sino se encuentra un numero mayor a 1 entonces deja el contador en 0.
+    if (contador > 0){
         contador -= 1;
-        valor.innerHTML = contador;
+        valorHtml.innerHTML = contadorH;
     }else{
         contador = 0;
-        valor.innerHTML = contador;
+        valorHtml.innerHTML = contadorH;
     }
 }
 
-function resetear(){
-    contador = 0;
-    valor.innerHTML = contador;
+//Se reinicia el contador a 0 si el usuario lo desea.
+function resetHtml(){
+    contadorH = 0;
+    valorHtml.innerHTML = contadorH;
 }
 
-const valor1 = document.getElementById("valor1")
+//Creamos una funcion de incremento, decremento y reset para manipular la cantidad de productos que se escogen en el libro de css.
 
-function aumento(){
+//Esta funcion suma 1 al contador que se muestra en los valores de css.
+function incrementoCss(){
     contador += 1;
-    valor1.innerHTML = contador;
+    valorCss.innerHTML = contadorJ;
 }
 
-function desaumento(){
-    if(contador > 0){
+//Esta funcion resta 1 al contador que se muestra en los valores de css.
+function decrementoCss(){
+    //Se usa una condicion la cual si identifica que el numero es mayor a 0 se le resta al contador pero sino se encuentra un numero mayor a 1 entonces deja el contador en 0.
+    if (contador > 0){
         contador -= 1;
-        valor1.innerHTML = contador;
+        valorCss.innerHTML = contadorJ;
     }else{
         contador = 0;
-        valor1.innerHTML = contador;
+        valorCss.innerHTML = contadorJ;
     }
 }
 
-function resetear1(){
+//Se reinicia todos los valor.
+function resetCss(){
     contador = 0;
-    valor1.innerHTML = contador;
+    valorCss.innerHTML = contadorJ;
+}
+
+//Creamos una funcion de incremento, decremento y reset para manipular la cantidad de productos que se escogen en el libro de css.
+
+//Esta funcion suma 1 al contador que se muestra en los valores de js.
+function incrementoJs(){
+    contadorJ += 1;
+    valorJs.innerHTML = contadorJ;
+}
+
+//Esta funcion resta 1 al contador que se muestra en los valores de js.
+function decrementoJs(){
+    ////Se usa una condicion la cual si identifica que el numero es mayor a 0 se le resta al contador pero sino se encuentra un numero mayor a 1 entonces deja el contador en 0.
+    if (contadorJ > 0){
+        contadorJ -= 1;
+        valorJs.innerHTML = contadorJ;
+    }else{
+        contadorJ = 0;
+        valorJs.innerHTML = contadorJ;
+    }
+}
+
+function resetJs(){
+    contadorJ = 0;
+    valorJs.innerHTML = contadorJ;
 }
