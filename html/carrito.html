@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/carito.css">
+    <title>Carrito de compras</title>
+</head>
+<body>
+
+    <!-- Creamos un contenedor que nos permita alamacenar toda la informacion de la pagina -->
+    <div class="contenedor">
+        <!-- Creamos un encabezado para la pagina
+        <h1 class="titulo">Pedido</h1>
+        <br><br> -->
+        <!-- Creamos un div para almacenar toda la informacion del libro html -->
+        <div class="libros">
+            <!-- Imagen de html -->
+            <img src="../img/html.png" alt="" class="img-html">
+            <br><br>
+            <!-- Preguntamos cual libro desea comprar el usuario con opciones de basicas, medios y avanzados -->
+            <label>¿Cual libro html deseas comprar?</label>
+            <br>
+            <select name="libros-html" id="html">
+                <option value="0">Ninguno</option>
+                <option value="1">Basico ($18.000)</option>
+                <option value="2">Medio ($25.000)</option>
+                <option value="3">Avanzado ($30.000)</option>
+            </select>
+            <!-- Se pide que ponga la cantidad de libros que desea comprar el usuario -->
+            <h3>¿Cuantos de seas comprar? <br>
+                <span id="valor">0</span>
+            </h3>
+            <!-- Los botones permiten aumentar, disminuir o reiniciar la cantidad de libros que el usuario desee comprar -->
+            <button class="btn-html">+</button>
+            <button class="btn-html">-</button>
+            <button class="btn-html">reset</button>
+        </div>
+        <br>
+
+        <!-- Creamos un div para almacenar toda la informacion del libro css -->
+        <div class="Libros1">
+            <!-- Imagen de css -->
+            <img src="../img/css.png" alt="" class="img-css">
+            <br><br>
+            <!-- Preguntamos cual libro desea comprar el usuario con opciones de basicas, medios y avanzados -->
+            <label>¿Cual libro css deseas comprar?</label>
+            <br>
+            <select name="libros-css" id="css">
+                <option value="0">Ninguno</option>
+                <option value="1">Basico ($12.000)</option>
+                <option value="2">Medio (20.000)</option>
+                <option value="3">Avanzado ($31.000)</option>
+            </select>
+            <!-- Se pide que ponga la cantidad de libros que desea comprar el usuario -->
+            <h3>¿Cuantos de seas comprar? <br>
+                <span id="valo1">0</span>
+            </h3>
+            <!-- Los botones permiten aumentar, disminuir o reiniciar la cantidad de libros que el usuario desee comprar -->
+            <button class="btn-css">+</button>
+            <button class="btn-css">-</button>
+            <button class="btn-css">reset</button>
+        </div>
+        <br>
+
+        <!-- Creamos un div para almacenar toda la informacion del libro javaScript -->
+        <div class="Libros2">
+            <!-- Imagen de javaScript -->
+            <img src="../img/js.png" alt="" class="img-js">
+            <br><br>
+            <!-- Preguntamos cual libro desea comprar el usuario con opciones de basicas, medios y avanzados -->
+            <label>¿Cual libro javaScript deseas comprar?</label>
+            <br>
+            <select name="libros-js" id="javascript">
+                <option value="0">Ninguno</option>
+                <option value="1">Basico ($28.000)</option>
+                <option value="2">Medio ($35.000)</option>
+                <option value="3">Avanzado ($45.000)</option>
+            </select>
+            <!-- Se pide que ponga la cantidad de libros que desea comprar el usuario -->
+            <h3>¿Cuantos de seas comprar? <br>
+                <span id="valor2">0</span>
+            </h3>
+            <!-- Los botones permiten aumentar, disminuir o reiniciar la cantidad de libros que el usuario desee comprar -->
+            <button class="btn-js">+</button>
+            <button class="btn-js">-</button>
+            <button class="btn-js">reset</button>
+        </div>
+        <br>
+        <button class="btn">Total</button>
+        <div class="total">
+            <!-- Se muestra el valor total del pedido -->
+            <h2>
+                <span id="resultado">0</span>
+            </h2>
+        </div>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,63 @@
+/*Colocamos un fondo de pantalla lo centramos y acomodamos para que conforme toda la pagina*/
+body{
+    background: url(https://i0.wp.com/cinde.es/blog/wp-content/uploads/2017/10/giphy.gif?resize=500%2C281);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+/*Le agregamos estilos a toda la pagina centrando los textos, colocando la posicion central en un texto, cambiandole el color a los textos, colocando un background transparente, acomodar todos los objetos para que no quede uno encima del otro y finalmente le damos un tamaño al texto*/
+.contenedor{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding: 50px;
+    border-radius: 100px;
+    backdrop-filter: blur(15px);
+    color: white;
+    font-size: 20px;
+}
+
+/*Colocamos un tamaño a las imagenes*/
+.img-html, .img-css, .img-js{
+    height: 200px;
+}
+
+/*Ajustamos el total al centro y acomodamos para que coincida con el cuadro*/
+.total{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+/*Colocamos borders, colores, posiciones, centramos, entre otros estilos para un boton*/
+.btn{
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background-color: brown;
+    border-radius: 20px;
+}
+
+/*Colocamos estilos sencillos para los botones de html, css y javascript*/
+.btn-js, .btn-css, .btn-html{
+    background-color: brown;
+    border-radius: 20px;
+}
+
+/*Le colocamos estilos sencillos para las listas*/
+#html, #css, #javascript{
+    border-radius: 20px;
+    background-color: brown;
+}
