@@ -31,7 +31,7 @@ body{
 .total{
     text-align: center;
     position: absolute;
-    left: 50%;
+    left: 60%;
     top: 95%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -42,7 +42,7 @@ body{
     height: 20px;
     text-align: center;
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 95%;
     transform: translate(-50%, -50%);
     display: flex;

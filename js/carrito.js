@@ -29,17 +29,17 @@ function resetearHtml(){
 }
 
 
-function incrementoCss(){
+function incrementCss(){
     contadorCss += 1;
     valor1.innerHTML = contadorCss;
 }
 
-function decrementoCss(){
-    contadorCss += 1;
+function decrementCss(){
+    contadorCss -= 1;
     valor1.innerHTML = contadorCss;
 }
 
-function resetearCss(){
+function resetCss(){
     if(contadorCss > 0){
         contadorCss -= 1;
         valor1.innerHTML = contadorCss;
@@ -49,7 +49,7 @@ function resetearCss(){
     }
 }
 
-function incrementoJS(){
+function incrementoJs(){
     contadorJs += 1;
     valor2.innerHTML = contadorJs;
 }
@@ -67,4 +67,24 @@ function decrementoJs(){
 function resetearJs(){
     contadorJs = 0;
     valor2.innerHTML = contadorJs;
+}
+
+function calcular(){
+
+    const html = parseFloat(document.getElementById("html").value);
+    const valorH = contadorJs;
+
+    const css = parseFloat(document.getElementById("css").value);
+    const valorC = contadorCss;
+
+    const javascript = parseFloat(document.getElementById("javascript").value);
+    const valorJ = contadorJs;
+
+    var resHtml = html * valorH;
+    var resCss = css * valorC;
+    var resJs = javascript * valorJ;
+
+    var totalP = resHtml + resCss + resJs;
+
+    total.innerHTML = totalP;
 }
