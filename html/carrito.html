@@ -35,6 +35,9 @@
             <button class="btn-html" onclick="incrementoHtml()">+</button>
             <button class="btn-html" onclick="decrementoHtml()">-</button>
             <button class="btn-html" onclick="resetearHtml()">reset</button>
+            <br>
+            <button class="btn-html" onclick="calculaLibroHtml()">Total</button>
+            <br><span id="valorLHtml">0</span>
         </div>
         <br>
 
@@ -60,6 +63,8 @@
             <button class="btn-css" onclick="incrementCss()">+</button>
             <button class="btn-css" onclick="decrementCss()">-</button>
             <button class="btn-css" onclick="resetCss()">reset</button>
+            <br><button class="btn-css" onclick="calculaLibroCss()">Total</button>
+            <br><span id="valorLCss">0</span>
         </div>
         <br>
 
@@ -85,12 +90,14 @@
             <button class="btn-js" onclick="incrementoJs()">+</button>
             <button class="btn-js" onclick="decrementoJs()">-</button>
             <button class="btn-js" onclick="resetearJs()">reset</button>
+            <br><button class="btn-js" onclick="calculaLibroJs()">Total</button>
+            <br><span id="valorLJs">0</span>
         </div>
-        <br>
-        <button class="btn" onclick="calcular()">Total</button>
+        <button class="btn" onclick="calcular()">
+            Total</button>
         <div class="total">
             <!-- Se muestra el valor total del pedido -->
-            <h2>
+            <h2><br>
                 <strong id="resultado"></strong>
             </h2>
         </div>

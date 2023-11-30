@@ -15,7 +15,7 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
     display: flex;
-    padding: 50px;
+    padding: 60px;
     border-radius: 100px;
     backdrop-filter: blur(15px);
     color: white;
@@ -31,7 +31,7 @@ body{
 .total{
     text-align: center;
     position: absolute;
-    left: 60%;
+    left: 50%;
     top: 95%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -54,6 +54,7 @@ body{
 .btn-js, .btn-css, .btn-html{
     background-color: brown;
     border-radius: 20px;
+    height: 30px;
 }
 
 /*Le colocamos estilos sencillos para las listas*/
@@ -61,3 +62,4 @@ body{
     border-radius: 20px;
     background-color: brown;
 }
+

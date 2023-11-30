@@ -8,6 +8,9 @@ const valor = document.getElementById('valor'); //atrae el valor de la cantidad 
 const valor1 = document.getElementById('valor1'); //atrae el valor de la cantidad del libro css
 const valor2 = document.getElementById('valor2'); //atrae el valor de la cantidad del libro javascript
 const total = document.getElementById('resultado'); //Atrae los valores que tiene el total del pedido
+const valorLHtml = document.getElementById('valorLHtml');
+const valorLCss = document.getElementById('valorLCss');
+const valorLJs = document.getElementById('valorLJs');
 
 //Se crea una funcion la cual sumará la cantidad de clics que haga el usuario en el boton más (+).
 function incrementoHtml(){
@@ -100,5 +103,23 @@ function calcular(){
 
     var totalP = resHtml + resCss + resJs; //Se calcula el valor total del pedido
 
-    total.innerHTML = totalP; //se muestra el resultado total del pedido
+    total.innerHTML = `Total a pagar $${totalP}`; //se muestra el resultado total del pedido
+}
+
+function calculaLibroHtml(){
+    const html1 = parseInt(document.getElementById("html").value);
+    var resultadoHtml = html1*contadorHtml;
+    valorLHtml.innerHTML = `total: $${resultadoHtml}`;
+}
+
+function calculaLibroCss(){
+    const css1 = parseInt(document.getElementById("css").value);
+    var resultadoCss = css1*contadorCss;
+    valorLCss.innerHTML = `total: $${resultadoCss}`;
+}
+
+function calculaLibroJs(){
+    const js1 = parseInt(document.getElementById("javascript").value);
+    var resultadoJs = js1 * contadorJs;
+    valorLJs.innerHTML = `total: $${resultadoJs}`;
 }
