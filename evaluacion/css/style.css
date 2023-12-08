@@ -1,0 +1,88 @@
+/*Se importan un tipo de texto de fontsGoogle*/
+@import url('https://fonts.googlepis.com/css2?family=Nunito:wght@400;500;600&display=swap');
+/*Se personaliza el fondo de pantalla de la pagina colocandole una imagen, colocandola en el centro, evitando que se duplique, centrandola y ajustandola por toda la pantalla.*/
+body{
+    background: url(../img/concepto-collage-control-calidad-estandar.jpg);
+    background-position: center;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Se le agrega a el body un decradado transparente que permite agregar colores externos a la imagen dandole un nivel mas colorido a la pagina.*/
+body:before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg, #52c4df, #ad55c1);
+
+    opacity: 0.5;
+}
+
+/*Se ajusta el texto en todo el centro de la pagina*/
+.contenedor{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Se cambia el tamaño y el color al titulo*/
+.contenedor h1{
+    font-size: 50px;
+    color: red;
+}
+
+/*Se le cambia el tamaño y el color al total*/
+#total{
+    font-size: 25px;
+    color: black;
+}
+
+/*Se le coloca bordes, color, fondo, transiciones, se le ajusta la posicion al boton.*/
+.btn{
+    text-decoration: none;
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 32px;
+    background: #039be5;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+/*Se le coloca bordes, color, transiciones, tamaño y posicion al boton.*/
+.btn::after, .btn::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    background: #039be5;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+/*Mueve el boton hacia arriba y la izquierda.*/
+.btn:hover{
+    transform: translate(-12px, -12px);
+}
+
+/*Mueve el boton hacia abajo y a la derecha.*/
+.btn:hover::after{
+    transform: translate(6px, 6px);
+}
+
+/*Realiza el mismo procedimiento solo que lo hace de manera mas pronunciada*/
+.btn:hover::before{
+    transform: translate(12px, 12px,);
+}
